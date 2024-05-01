@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Vagas</title>
+  <link rel="stylesheet" href="./CSS/cadastro.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="logo" href="/">UniSENAI</a>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li><a href="#">Cadastrar Vaga</a></li>
+        <li><a href="#">Vagas Cadastradas</a></li>
+        <li><a href="#">Vagas disponíveis</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main></main>
+  <div class="container">
+    <form class="cadastro-form">
+      <h2>Cadastro de Reserva da Vaga</h2>
+      <div class="input-group">
+        <label for="placaVeiculo">Placa do Veículo:</label>
+        <input type="text" id="placa_veiculo" name="placaVeiculo" required>
+      </div>
+      <div class="input-group">
+        <label for="nomeProprietario">Nome do Proprietário:</label>
+        <input type="text" id="nome_proprietario" name="nomeProprietario" required>
+      </div>
+      <div class="input-group">
+        <label for="numeroApartamento">Número do Apartamento:</label>
+        <input type="number" id="numero_apartamento" name="numeroApartamento" required>
+      </div>
+      <div class="input-group">
+        <label for="blocoAPartamento">Bloco do Apartamento</label>
+        <input type="text" id="bloco_apartamento" name="blocoAPartamento" required>
+      </div>
+      <div class="input-group">
+        <label for="modeloVeiculo">Modelo de Veículo:</label>
+        <input type="text" id="modelo_veiculo" name="modeloVeiculo" required>
+      </div>
+      <div class="input-group">
+        <label for="corVeiculo">Cor do Veículo:</label>
+        <input type="text" id="cor_veiculo" name="corVeiculo" required>
+      </div>
+      <div class="input-group">
+        <label for="numeroVaga">Nº da vaga do estacionamento:</label>
+        <input type="number" id="numero_vaga" name="numeroVaga" required>
+      </div>
+      <div class="button-div">
+        <button type="submit">Cadastrar</button>
+      </div>
+    </form>
+  </div>
+  <script src="./JS/mobile-navbar.js"></script>
+  <script src="./JS/index.js"></script>
+</body>
+</html>
